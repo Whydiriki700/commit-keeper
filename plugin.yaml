@@ -1,0 +1,10 @@
+name: commit-keeper
+version: 0.1.0
+description: "Work that is not committed is work that can vanish. Commit Keeper watches the agent's tool activity and, at a configurable interval, writes a git checkpoint commit in each configured workspace repo: changed files staged (credential-shaped file names always excluded), committed with a timestamped checkpoint message, and optionally pushed. Every checkpoint, skip, and refusal is written to a local ledger."
+author: "Riki Wahyudi"
+requires_hermes: ">=0.22.0"
+provides_tools:
+  - commitkeeper_run
+  - commitkeeper_status
+provides_hooks:
+  - post_tool_call
