@@ -1,3 +1,5 @@
+![commit-keeper](assets/preview.png)
+
 # Commit Keeper
 
 **Uncommitted work is unfinished work.**
